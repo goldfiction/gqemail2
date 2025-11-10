@@ -3,3 +3,5 @@
 *.log
 arch/config.ini
 *store/
+user.js
+package-lock.json

@@ -1,22 +1,19 @@
 {
-  "name": "gqemail",
-  "version": "1.0.11",
+  "name": "gqemail2",
+  "version": "2.0.1",
   "main": "./main.js",
-  "type": "module",
   "dependencies": {
     "emailjs": "^4.0.3"
   },
   "private": false,
   "description": "this is a small modified module for sending a zip file along with some messages. This module is used by other gq modules for backing up server dbs and sending the resulting zip file to a third party email account.",
   "license": "MIT",
-  "repository": "git@github.com:goldfiction/gqemail.git",
+  "repository": "git@github.com:goldfiction/gqemail2.git",
   "versionHistory": {
-    "1.0.11": "fixed import for newer nodejs version. see /test for usage",
-    "1.0.10": "fixed broken default password",
-    "1.0.0": "init"
+    "2.0.1": "init"
   },
-  "scripts":{
-    "test":"mocha test -t 20000",
-    "inst":"npm install --no-bin-links"
+  "scripts": {
+    "test": "mocha test -t 20000",
+    "inst": "npm install --no-bin-links --ignore-scripts"
   }
 }
