@@ -8,9 +8,12 @@ var _from = null;
 var SMTPClient = null;
 var delayTime = 10;
 var that = this;
-_from = require(process.cwd() + '/user.js')
-_from = _from._from
 
+var _from = {};
+try {
+    _from = require(process.cwd() + '/user.js')
+    _from = _from._from
+} catch (e) { }
 
 async function useESModule(done) {
     SMTPClient = await import('emailjs')
