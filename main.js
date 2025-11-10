@@ -8,7 +8,7 @@ var _from = null;
 var SMTPClient = null;
 var delayTime = 10;
 var that = this;
-_from = require('./user.js')
+_from = require(process.cwd() + '/user.js')
 _from = _from._from
 
 

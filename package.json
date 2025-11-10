@@ -1,6 +1,6 @@
 {
   "name": "gqemail2",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "main": "./main.js",
   "dependencies": {
     "emailjs": "^4.0.3"
